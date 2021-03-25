@@ -20,47 +20,28 @@
   </div>
 
  
-   <div id = 'form-container1'>
+  <div id = 'form-container1'>
   <h3>Provide the following words</h3>
-  <input type = "text" placeholder="Adjective"></input>
-  <input type = "text" placeholder="Verb1"></input>
-  <input type = "text" placeholder="Verb2"></input>
-  <input type = "text" placeholder="Plural Noun 1"></input>
-  <input type = "text" placeholder="Plural Noun 2"></input>
-  <input type = "text" placeholder="Plural Noun 3"></input>
-  <button>Read Story</button>
+  <ul>
+  <li>Adjective<input type = "text" id = 'Adjective' placeholder="Adjective"></input></li>
+  <li>Verb1<input type = "text" id = 'Verb1' placeholder="Verb1"></input></li>
+  <li>3<input type = "text" id = 'Verb2' placeholder="Verb2"></input></li>
+  <li>4<input type = "text" id = 'Plural Noun 1' placeholder="Plural Noun 1"></input></li>
+  <li>5<input type = "text" id = 'Plural Noun 2' placeholder="Plural Noun 2"></input></li>
+  <li>6<input type = "text" id = 'Plural Noun 3' placeholder="Plural Noun 3"></input></li>
+  <button id = "read">Read Story</button>
+   </ul>
+   </div>
 
-  <div id = 'form-container2'>
-    <input type = "text" placeholder="Adjective"></input>
-    <input type = "text" placeholder="Verb1"></input>
-    <input type = "text" placeholder="Verb2"></input>
-    <input type = "text" placeholder="Plural Noun 1"></input>
-    <input type = "text" placeholder="Plural Noun 2"></input>
-    <input type = "text" placeholder="Plural Noun 3"></input>
-    <button>Read Story</button>
 
-    <div id = 'form-container3'>
-        <input type = "text" placeholder="Adjective"></input>
-        <input type = "text" placeholder="Verb1"></input>
-        <input type = "text" placeholder="Verb2"></input>
-        <input type = "text" placeholder="Plural Noun 1"></input>
-        <input type = "text" placeholder="Plural Noun 2"></input>
-        <input type = "text" placeholder="Plural Noun 3"></input>
-        <button>Read Story</button>
 
 <hr>
 
 <h3>Mission Statement</h3>
-<div id = 'result'>
-    <p>Our mission is to <span class="word">${words['Verb 1']}
+<p id = 'result'></p>
+     
 
-    </span> our <span class="word">${words['Plural Noun 2']}</span> 
-    with <span class="word">${words.Adjective}</span> <span class="word">
-        ${words['Plural Noun 3']}</span> that will <span class="word">
-            ${words['Verb 2']}</span> their <span class="word">
-                ${words['Plural Noun 1']}</span>.</p> 
 
-</div>
 <button id= create> Create another story</button>
 
    </div>

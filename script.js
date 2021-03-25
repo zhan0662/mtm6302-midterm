@@ -5,30 +5,36 @@ const $Mission = document.getElementById(`Mission`)
 
 
 $Mission.addEventListener ('click',function(){
+    let result = 'Our mission is to ' + Adjective + 'our' + Verb1 + 'with' + 3 + 4 + 'that will' + 5 + 'their' + 6
+    document.getElementById("result").innerHTML = result
+    
+    $read.addEventListener ('click',function(){
+    let Adjective = document.getElementById("Adjective").value;
+    let Verb1 = document.getElementById("Verb1").value;
 
-    for (const result of result) {
-        items.push(`<p>Our mission is to <span class="word">${words['Verb 1']}</span> our <span class="word">${words['Plural Noun 2']}</span> with <span class="word">${words.Adjective}</span> <span class="word">${words['Plural Noun 3']}</span> that will <span class="word">${words['Verb 2']}</span> their <span class="word">${words['Plural Noun 1']}</span>.</p>`)
-      }
-    document.getElementById("result").innerHTML = console.log(stories[0])
-   
+    
+    })
+    
 })
 
 $Lunch.addEventListener ('click',function(){
 
     
-    document.getElementById("result").innerHTML = console.log(stories[1])
+    let result = 'Our mission is to ' + 1 + 'our' + 2 + 'with' + 3 + 4 + 'that will' + 5 + 'their' + 6
+    document.getElementById("result").innerHTML = result
 })
 
 $Weather.addEventListener ('click',function(){
 
     
-    document.getElementById("result").innerHTML = console.log(stories[2])
+    let result = 'Our mission is to ' + 1 + 'our' + 2 + 'with' + 3 + 4 + 'that will' + 5 + 'their' + 6
+    document.getElementById("result").innerHTML = result
 })
 
 
 
 
- 
+
 
 
 
