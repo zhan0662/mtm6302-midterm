@@ -1,7 +1,7 @@
 const stories = [
     {
       title: 'Mission Statement',
-      words: [
+      words: [  
         'Adjective',
         'Verb 1',
         'Verb 2',

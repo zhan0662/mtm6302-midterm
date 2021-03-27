@@ -52,7 +52,7 @@ $Mission.addEventListener ('click',function(){
    document.getElementById('result').innerHTML = stories[0].output(words)
    document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
+           document.getElementById('container').innerHTML = ""
    })
 
 })
@@ -116,7 +116,7 @@ $Mission.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[1].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
+           document.getElementById('container').innerHTML = ""
    })
          
     })
@@ -175,7 +175,7 @@ $Weather.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[2].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
+           document.getElementById('container').innerHTML = ""
    })
          })
     
