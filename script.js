@@ -135,7 +135,7 @@ $Mission.addEventListener ('click',function(){
 $Weather.addEventListener ('click',function(){
     
     
-    const word = [ 'Adjective 1',
+    const word = [ 'Adjective 1',  
     'Adjective 2',
     'Article of Clothing',
     'Number 1',

@@ -39,7 +39,7 @@ form input{
     height:40px;
     border: 0px;
     border-radius: 5px;
-    background-color: lightseagreen;
+    background-color: rgb(88, 187, 182);
     margin-bottom: 10px;
 
 }
@@ -68,7 +68,7 @@ form input{
     border: 0px;
     height:40px;
     border-radius: 5px;
-    background-color:yellowgreen;
+    background-color:yellowgreen; 
     
 }
 
