@@ -15,13 +15,58 @@ body{
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    background-color:lemonchiffon
 }
 
 
 form input{
-    width:80%;
+    width:50%;
+    height:30px;
+    margin-bottom: 5px;
+    margin-right: 40px;
 }
 
+#read{
+    width:48%;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: lightcoral;
+}
+
+#Mission{
+    width: 25%;
+    height:40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+
+}
+
+#Lunch{
+    width: 25%;
+    border: 0px;
+    height:40px;
+    border-radius: 5px;
+    background-color:orange
+
+}
+
+#Weather{
+    width: 25%;
+    border: 0px;
+    height:40px;
+    border-radius: 5px;
+    background-color:orchid
+}
+
+#create-btn{
+    width: 25%;
+    border: 0px;
+    height:40px;
+    border-radius: 5px;
+    background-color:yellowgreen
+}
 
 
 

@@ -27,6 +27,7 @@ $Mission.addEventListener ('click',function(){
       <li><input type = "text" placeholder="${word[3]}"></input></li>
       <li><input type = "text" placeholder="${word[4]}"></input></li>
       <li><input type = "text" placeholder="${word[5]}"></input></li>
+      
       </ul>
       <button id = "read">Read Story</button>
       `
@@ -49,8 +50,8 @@ $Mission.addEventListener ('click',function(){
     }
     document.getElementById('h4').innerHTML = stories[0].title
    document.getElementById('result').innerHTML = stories[0].output(words)
-   document.getElementById('create').innerHTML = `<button id= "create-btn 1"> Create another story</button>`
-   document.getElementById('create-btn 1').addEventListener ('click',function(event){
+   document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
+   document.getElementById('create-btn').addEventListener ('click',function(event){
            document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
    })
 
@@ -89,6 +90,7 @@ $Mission.addEventListener ('click',function(){
       <li><input type = "text" placeholder="${word[3]}"></input></li>
       <li><input type = "text" placeholder="${word[4]}"></input></li>
       <li><input type = "text" placeholder="${word[5]}"></input></li>
+      <li><input type = "text" placeholder="${word[6]}"></input></li>
       </ul>
       <button id = "read">Read Story</button>
       `
@@ -112,8 +114,8 @@ $Mission.addEventListener ('click',function(){
          }
        document.getElementById('h4').innerHTML = stories[1].title
        document.getElementById('result').innerHTML = stories[1].output(words)
-       document.getElementById('create').innerHTML = `<button id= "create-btn 1"> Create another story</button>`
-   document.getElementById('create-btn 1').addEventListener ('click',function(event){
+       document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
+   document.getElementById('create-btn').addEventListener ('click',function(event){
            document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
    })
          
@@ -149,6 +151,7 @@ $Weather.addEventListener ('click',function(){
       <li><input type = "text" placeholder="${word[3]}"></input></li>
       <li><input type = "text" placeholder="${word[4]}"></input></li>
       <li><input type = "text" placeholder="${word[5]}"></input></li>
+      <li><input type = "text" placeholder="${word[6]}"></input></li>
       </ul>
       <button id = "read">Read Story</button>
       `
@@ -170,8 +173,8 @@ $Weather.addEventListener ('click',function(){
          }
        document.getElementById('h4').innerHTML = stories[2].title
        document.getElementById('result').innerHTML = stories[2].output(words)
-       document.getElementById('create').innerHTML = `<button id= "create-btn 1"> Create another story</button>`
-   document.getElementById('create-btn 1').addEventListener ('click',function(event){
+       document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
+   document.getElementById('create-btn').addEventListener ('click',function(event){
            document.getElementById('container').innerHTML = `<h2>Oops,Please Refresh The page !<h2>`
    })
          })
