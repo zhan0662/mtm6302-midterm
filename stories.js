@@ -5,7 +5,7 @@ const stories = [
         'Adjective',
         'Verb 1',
         'Verb 2',
-        'Plural Noun 1',
+        'Plural Noun 1',  
         'Plural Noun 2',
         'Plural Noun 3'
       ],

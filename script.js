@@ -52,7 +52,18 @@ $Mission.addEventListener ('click',function(){
    document.getElementById('result').innerHTML = stories[0].output(words)
    document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = ""
+           document.getElementById('container').innerHTML =
+            ` <h3 id='h3'></h3>
+           <h5 id= 'h5'></h5>
+            <form class='form' id="form">
+             
+            </form>
+         
+         
+         
+         <h4 id='h4'></h4>
+         <p id = 'result'></p>
+         <div id= "create"></div>`
    })
 
 })
@@ -116,7 +127,18 @@ $Mission.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[1].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = ""
+           document.getElementById('container').innerHTML = 
+           ` <h3 id='h3'></h3>
+           <h5 id= 'h5'></h5>
+            <form class='form' id="form">
+             
+            </form>
+         
+         
+         
+         <h4 id='h4'></h4>
+         <p id = 'result'></p>
+         <div id= "create"></div>`
    })
          
     })
@@ -175,7 +197,18 @@ $Weather.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[2].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = ""
+           document.getElementById('container').innerHTML = 
+           ` <h3 id='h3'></h3>
+          <h5 id= 'h5'></h5>
+           <form class='form' id="form">
+            
+           </form>
+        
+
+        
+        <h4 id='h4'></h4>
+        <p id = 'result'></p>
+        <div id= "create"></div>`
    })
          })
     
