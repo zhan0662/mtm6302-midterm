@@ -27,7 +27,7 @@ form input{
 }
 
 #read{
-    width:48%;
+    width:40%;
     height: 40px;
     border: 0px;
     border-radius: 5px;
@@ -35,29 +35,32 @@ form input{
 }
 
 #Mission{
-    width: 25%;
+    width: 50%;
     height:40px;
     border: 0px;
     border-radius: 5px;
     background-color: lightseagreen;
+    margin-bottom: 10px;
 
 }
 
 #Lunch{
-    width: 25%;
+    width: 50%;
     border: 0px;
     height:40px;
     border-radius: 5px;
-    background-color:orange
+    background-color:orange;
+    margin-bottom: 10px;
 
 }
 
 #Weather{
-    width: 25%;
+    width: 50%;
     border: 0px;
     height:40px;
     border-radius: 5px;
-    background-color:orchid
+    background-color:orchid;
+    margin-bottom: 10px;
 }
 
 #create-btn{
@@ -65,7 +68,16 @@ form input{
     border: 0px;
     height:40px;
     border-radius: 5px;
-    background-color:yellowgreen
+    background-color:yellowgreen;
+    
+}
+
+.buttons{
+   
+    display:list-item;
+    list-style-type: none;
+    
+    
 }
 
 
