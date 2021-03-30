@@ -1,4 +1,6 @@
-const $container = document.getElementById(`container`)
+const $container1 = document.getElementById(`container1`)
+const $container2 = document.getElementById(`container2`)
+const $container3 = document.getElementById(`container3`)
 const $Weather = document.getElementById(`Weather`)
 const $Lunch = document.getElementById(`Lunch`)
 const $Mission = document.getElementById(`Mission`)
@@ -15,7 +17,9 @@ let $form = document.getElementById('form')
 
 
 $Mission.addEventListener ('click',function(){
-    
+  
+    $container1.style.display= 'none'
+    $container2.style.display= 'block'
     const word = [ 'Adjective', 'Verb 1','Verb 2', 'Plural Noun 1', 'Plural Noun 2','Plural Noun 3']
 
      list = `
@@ -39,6 +43,8 @@ $Mission.addEventListener ('click',function(){
     
     const $read = document.getElementById(`read`)
    $read.addEventListener ('click',function(event){
+    $container2.style.display= 'none'
+    $container3.style.display= 'block'
     event.preventDefault()
     const words={
         'Adjective': $form.elements[0].value,
@@ -52,18 +58,9 @@ $Mission.addEventListener ('click',function(){
    document.getElementById('result').innerHTML = stories[0].output(words)
    document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML =
-            ` <h3 id='h3'></h3>
-           <h5 id= 'h5'></h5>
-            <form class='form' id="form">
-             
-            </form>
-         
-         
-         
-         <h4 id='h4'></h4>
-         <p id = 'result'></p>
-         <div id= "create"></div>`
+      
+        $container1.style.display = "block"
+        $container3.style.display = "none"
    })
 
 })
@@ -81,9 +78,10 @@ $Mission.addEventListener ('click',function(){
 
 
     $Lunch.addEventListener ('click',function(){
-
+      $container1.style.display= 'none'
+      $container2.style.display= 'block'
        
-    
+      console.log($container2, "lunch")
     
     const word = [ 'Animal',
     'Adjective 1',
@@ -113,6 +111,9 @@ $Mission.addEventListener ('click',function(){
 
         const $read = document.getElementById(`read`)
         $read.addEventListener ('click',function(event){
+          $container2.style.display= 'none'
+          $container3.style.display= 'block'
+
          event.preventDefault()
          const words={
             'Animal': $form.elements[0].value,
@@ -127,18 +128,8 @@ $Mission.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[1].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = 
-           ` <h3 id='h3'></h3>
-           <h5 id= 'h5'></h5>
-            <form class='form' id="form">
-             
-            </form>
-         
-         
-         
-         <h4 id='h4'></h4>
-         <p id = 'result'></p>
-         <div id= "create"></div>`
+    $container1.style.display = "block"
+    $container3.style.display = "none"
    })
          
     })
@@ -155,8 +146,11 @@ $Mission.addEventListener ('click',function(){
 
 
 $Weather.addEventListener ('click',function(){
-    
-    
+  $container1.style.display= 'none'
+  $container2.style.display= 'block'
+
+
+  console.log($container2, "weather")
     const word = [ 'Adjective 1',  
     'Adjective 2',
     'Article of Clothing',
@@ -183,6 +177,10 @@ $Weather.addEventListener ('click',function(){
 
     const $read = document.getElementById(`read`)
         $read.addEventListener ('click',function(event){
+          $container2.style.display= 'none'
+          $container3.style.display= 'block'
+
+
          event.preventDefault()
          const words={
             'Adjective 1': $form.elements[0].value,
@@ -197,18 +195,8 @@ $Weather.addEventListener ('click',function(){
        document.getElementById('result').innerHTML = stories[2].output(words)
        document.getElementById('create').innerHTML = `<button id= "create-btn"> Create another story</button>`
    document.getElementById('create-btn').addEventListener ('click',function(event){
-           document.getElementById('container').innerHTML = 
-           ` <h3 id='h3'></h3>
-          <h5 id= 'h5'></h5>
-           <form class='form' id="form">
-            
-           </form>
-        
-
-        
-        <h4 id='h4'></h4>
-        <p id = 'result'></p>
-        <div id= "create"></div>`
+    $container1.style.display = "block"
+    $container3.style.display = "none"
    })
          })
     

@@ -1,12 +1,12 @@
 const stories = [
     {
       title: 'Mission Statement',
-      words: [  
+      words: [     
         'Adjective',
         'Verb 1',
         'Verb 2',
         'Plural Noun 1',  
-        'Plural Noun 2',
+        'Plural Noun 2',  
         'Plural Noun 3'
       ],
       output: function (words) {
